@@ -271,7 +271,7 @@ void http_rest_post(cJSON *payload, uint32_t id) {
         .disable_auto_redirect = true,
         .method = HTTP_METHOD_POST,
         .username = "uclimate",
-        .password = "Y9X]`Dp(/{ycTQuK",
+        .password = "",
         .auth_type = HTTP_AUTH_TYPE_BASIC
     };
     esp_http_client_handle_t client = esp_http_client_init(&config);
