@@ -15,7 +15,7 @@
 #include "driver/i2c.h"
 
 #define EXAMPLE_ESP_WIFI_SSID      "TELUS2348"
-#define EXAMPLE_ESP_WIFI_PASS      "nvhcqk9jc8"
+#define EXAMPLE_ESP_WIFI_PASS      ""
 #define EXAMPLE_ESP_MAXIMUM_RETRY  5
 
 /* FreeRTOS event group to signal when we are connected*/
